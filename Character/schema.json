@@ -1,0 +1,21 @@
+{
+  "title": "Character",
+  "type": "object",
+  "description": "An individual being, either unique or not. A generic masked henchman, Cthulhu, etc",
+  "required": ["unique", "id"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "A string that uniquely identifies this individual from others with the same name. Ideally it should provide human readable information and not just be an ID number.",
+      "minLength": 1
+    },
+    "unique": {
+      "type": "boolean",
+      "description": "Is this a unique indevidual, or a class of similarly trained individuals",
+    },
+    "name": {
+      "type: "string",
+      "description": "The displayed name of the character, like the Maske Man, or 
+    }
+  }
+}
