@@ -15,7 +15,7 @@
     },
     "name": {
       "type: "string",
-      "description": "The displayed name of the character, like the Maske Man, or 
+      "description": "The displayed name of the character, like the Masked Man or Gerald. This will default to the id if not provided."
     }
   }
 }
